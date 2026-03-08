@@ -1,0 +1,29 @@
+{
+  "name": "kians-music-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord music bot for Kian and friends with /play, /pause, /resume, /skip, and /clear queue.",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot"
+  ],
+  "author": "Kian (and AI assistant)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "@discordjs/voice": "^0.17.0",
+    "discord-api-types": "^0.37.83",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "play-dl": "^1.9.7"
+  }
+}
+
